@@ -9,7 +9,7 @@
          "manager",
          "innexi"
       ],   
-   "repository": "https://github.com/zeinzo/LunaRobotV2.git",
+   "repository": "https://github.com/hackerworldyt/LunaRobotV2.git",
    "addons": [
       {
          "options": {
@@ -50,7 +50,7 @@
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "1885133444"
+         "value": "1115486824"
       },
       "BOT_ID": {
          "description": "Your bot ID.. Use any other bot to get it.",
@@ -67,12 +67,11 @@
       },
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "tdrki_1"
+         "value": "iamhackerworld"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to masha support than consider you made an enemy.",
-         "required": true,
-         "value": "lunasupportgroup"
+         "required": "HwBotSupport"
       },
       "MONGO_DB_URI": {
          "description": "Required for database connections.",
