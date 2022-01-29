@@ -1,7 +1,7 @@
 
 
 <p align="center">
-  <img src="https://telegra.ph/file/e052e680ba705b7ed7be5.jpg">
+  <img src="https://telegra.ph/file/de94d33e9d5480714ac26.jpg">
 <h1 align="center"><b> Luna Robot </b></h1>
 </p>
 <h4 align="center">A Powerful, Smart And Simple Group Manager <br> ... Written with AioGram , Pyrogram and Telethon...</h4>
