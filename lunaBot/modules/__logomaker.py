@@ -274,11 +274,11 @@ async def lego(event):
     x = (image_widthz-w)/2
     y = ((image_heightz-h)/2+6)
     draw.text((x, y), text, font=font, fill="white", stroke_width=1, stroke_fill="black")
-    fname = "luna.png"
+    fname = "hwlogo.png"
     img.save(fname, "png")
-    await telethn.send_file(event.chat_id, file=fname, caption = f"Made by [Luna ✨](https://t.me/lunatapibot)")         
+    await telethn.send_file(event.chat_id, file=fname, caption = f"Made by [HwRobot ✨](https://t.me/hwmusicbot)")         
     await pesan.delete()
     if os.path.exists(fname):
             os.remove(fname)
  except Exception as e:
-    await event.reply(f'Error, Report @lunaXresso')
+    await event.reply(f'Error, Report @iamhackerworld')
