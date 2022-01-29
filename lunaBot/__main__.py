@@ -75,7 +75,7 @@ def get_readable_time(seconds: int) -> str:
 LUNA_IMG = "https://telegra.ph/file/de94d33e9d5480714ac26.jpg"
 
 PM_START_TEXT = """
-**hey I am Luna Robot** [ㅤ](https://telegra.ph/file/de94d33e9d5480714ac26.jpg)
+**hey I am Hw Music Bot** [ㅤ](https://telegra.ph/file/de94d33e9d5480714ac26.jpg)
 ️➖➖➖➖➖➖➖➖➖➖➖➖➖
 **I'm a Powerfull Group Manager Bot With Cool Modules. feel free to add me to your groups!**
 ️➖➖➖➖➖➖➖➖➖➖➖➖➖
@@ -111,7 +111,7 @@ If you want to report any bugs or need any help with setting up Alina, reach us 
 
 
 DONATE_STRING = """Hehe, senang mendengar Anda ingin menyumbang!
- [klick disini](https://t.me/zeinzo_1) ❤️
+ [klick disini](https://t.me/iamhackerworld) ❤️
 """
 
 IMPORTED = {}
