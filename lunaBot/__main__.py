@@ -72,10 +72,10 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-LUNA_IMG = "https://telegra.ph/file/7c3c26e0ed938aec91209.jpg"
+LUNA_IMG = "https://telegra.ph/file/de94d33e9d5480714ac26.jpg"
 
 PM_START_TEXT = """
-**hey I am Luna Robot** [ㅤ](https://telegra.ph/file/1895e25b7f5e3e7bddfc4.jpg)
+**hey I am Hw Robot** [ㅤ](https://telegra.ph/file/de94d33e9d5480714ac26.jpg)
 ️➖➖➖➖➖➖➖➖➖➖➖➖➖
 **I'm a Powerfull Group Manager Bot With Cool Modules. feel free to add me to your groups!**
 ️➖➖➖➖➖➖➖➖➖➖➖➖➖
@@ -84,7 +84,7 @@ PM_START_TEXT = """
 
 buttons = [
     [
-        InlineKeyboardButton(text="➕ Add Luna To Your group ➕", url="http://t.me/lunatapibot?startgroup=true"),
+        InlineKeyboardButton(text="➕ Add Hw Music Bot To Your group ➕", url="http://t.me/hwmusicbot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="About", callback_data="luna_"),
@@ -101,7 +101,7 @@ buttons = [
 
 
 HELP_STRINGS = """
-**Main commands:**  [ㅤ](https://telegra.ph/file/1895e25b7f5e3e7bddfc4.jpg)
+**Main commands:**  [ㅤ](https://telegra.ph/file/de94d33e9d5480714ac26.jpg)
 ❂ /start: Starts me! You've probably already used this.
 ❂ /help: Sends this message; I'll tell you more about myself.
 
@@ -111,7 +111,7 @@ If you want to report any bugs or need any help with setting up Alina, reach us 
 
 
 DONATE_STRING = """Hehe, senang mendengar Anda ingin menyumbang!
- [klick disini](https://t.me/zeinzo_1) ❤️
+ [klick disini](https://t.me/iamhackerworld) ❤️
 """
 
 IMPORTED = {}
@@ -588,7 +588,7 @@ def luna_about_callback(update, context):
                 [
                   [
                      InlineKeyboardButton(text="Back", callback_data="luna_puqi"),
-                     InlineKeyboardButton(text="☎️ Support", url=f"https://t.me/lunaXresso"),
+                     InlineKeyboardButton(text="☎️ Support", url=f"https://t.me/HwMusicUpdates"),
                   ]
                 ]
             ),
@@ -600,7 +600,7 @@ def Source_about_callback(update, context):
     if query.data == "source_":
         query.message.edit_text(
             text=""" Hi.. ɪ'ᴀᴍ Lᴜɴᴀ*
-                 \nHere is the [sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ](https://www Xhamster.com) .""",
+                 \nHere is the [sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ](https://t.me/iamhackerworld) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
