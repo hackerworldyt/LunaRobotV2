@@ -18,7 +18,7 @@ async def awake(event):
   LUNA += f"🔴 **Telethon Version : {tlhver}** \n\n"
   LUNA += f"🔴 **Pyrogram Version : {pyrover}** \n\n"
   LUNA += "**Thanks For Adding Me Here ❤️**"
-  BUTTON = [[Button.url("ʜᴇʟᴘ", "https://t.me/hwmusicbot?start=help"), Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/iamhackerworld")]]
+  BUTTON = [[Button.url("ʜᴇʟᴘ", "https://t.me/hwmusicbot?start=help"), Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/HwBotSupport")]]
   await tbot.send_file(event.chat_id, PHOTO, caption=LUNA,  buttons=BUTTON)
 
 @MEMEK(pattern=("/reload"))
