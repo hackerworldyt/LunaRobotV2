@@ -564,37 +564,18 @@ def luna_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                   [
-                     InlineKeyboardButton(text="Credits", callback_data="luna_angjay"),
                      InlineKeyboardButton(text="Back", callback_data="luna_"),
                   ]
                 ]
             ),
         )
 
-    elif query.data == "luna_angjay":
-        query.message.edit_text(
-            text=f"Hw is a powerful bot for managing groups with additional features.\n"
-              f"\nHw Licensed Under The GNU (General Public License v3.0)\n"
-              f"\nIf you have any question about Hw,"
-              f"\nreach us at Support Chat.",
-            parse_mode=ParseMode.MARKDOWN,
-            disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup(
-                [
-                  [
-                     InlineKeyboardButton(text="Back", callback_data="luna_puqi"),
-                     InlineKeyboardButton(text="☎️ Support", url=f"https://t.me/HwMusicUpdates"),
-                  ]
-                ]
-            ),
-        )   
-
 @run_async
 def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi.. ɪ'ᴀᴍ Lᴜɴᴀ*
+            text=""" Hi.. ɪ'ᴀᴍ ʜᴡ ᴍᴜꜱɪᴄ ʙᴏᴛ*
                  \nHere is the [sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ](https://t.me/iamhackerworld) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
